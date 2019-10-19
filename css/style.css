@@ -1,0 +1,326 @@
+/*  
+
+body{
+    font-family:  Helvetica;
+}
+header {
+    background-color: #444;
+    height: 100px;
+
+    
+}
+nav{
+
+    width: 960px;
+    margin: 0px auto;
+}
+
+#logo {
+    float: left;
+    margin-left: 185px ;
+    margin-top: 15px;
+}
+
+ul{
+    text-align: center;
+    height: 0px;
+    
+
+}
+header ul li {
+   
+    display: inline-block;
+    margin-right: 10%;
+    margin-top: 40px;
+    color: #888;
+   
+    }
+main{
+
+      margin: 30px auto ;
+}
+  div  {
+    text-align: center; 
+    margin: 20px;
+  } 
+    #first {
+        margin-top:30px;
+        margin-bottom: 0px;
+    }
+
+    article {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+            }
+#second1{
+    position: relative;
+  right: 25px;
+  
+}
+#second3{
+    position: relative;
+    left: 25px;
+}
+
+
+
+
+.part {
+  margin-top: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+ section div {
+  padding-left: 30px;
+  margin-bottom: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+ h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+ section div p {
+  height: 320px;
+  overflow: auto;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 24px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+ button {
+    transition: 400ms;
+    background: #000;
+    font-size: 18px;
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #fff;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: 1px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ } */
+
+/* section  {
+    padding-left: 30px;
+    margin-bottom: 30px;
+    width: 960px;
+  }
+  
+  
+
+
+  
+     #fourth {
+         margin-right: 500px;
+      width: 250px;
+      float: left;
+    }
+   
+  
+
+#text
+{text-align: left;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: auto;
+   margin-right: auto;
+    width: 960px;
+    height: 400px;
+    font-size: 18px;
+  font-style: italic;
+    border-style: dashed;
+    border-color: rgb(255, 0, 149);
+     
+
+}
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.fourth {
+  float: left;
+  
+  
+}
+  button {
+    border: none;
+    padding: 10px 30px;
+    background: #000;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: 350ms;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: green;
+  }
+
+  footer{
+    background-color: rgb(68, 68, 68);
+    height: 150px;
+
+  } 
+   */
+
+
+   body {
+    font-family: Helvetica;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+   main {
+      width: 960px;
+      margin: 30px auto;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+   nav {
+    width: 960px;
+    margin: 0px auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+   footer {
+      background: rgb(68, 68, 68);
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    height: 150px;
+   }
+   a {
+      color: #888;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    text-decoration: none;
+   }
+   header img {
+    float: left;
+    margin-top: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 30px;
+   }
+   button:hover {
+      background: green;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+   header ul li {
+    margin-top: 40px;
+    margin-right: 75px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+   }
+   header {
+    background: #444;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100px;
+   }
+   .section1 {
+    width: 33.33%;
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+   .section2 {
+      float: left;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    width: 50%;
+   }
+   .part:after {
+      display: table;
+    content: "";
+    clear: both;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+   *:before {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+   .right > * {
+    float: right;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+   .center {
+    padding-left: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+   .part {
+    margin-top: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+   section div {
+    padding-left: 30px;
+    margin-bottom: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+   h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+   section div p {
+    height: 320px;
+    overflow: auto;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 24px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   }
+   button {
+      transition: 400ms;
+      background: #000;
+      font-size: 18px;
+      border-radius: 3px;
+      margin-top: 10px;
+      color: #fff;
+      padding: 10px 30px;
+      cursor: pointer;
+      border: 1px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+   }
